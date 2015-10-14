@@ -1,3 +1,12 @@
+/*  
+
+1. General
+2. Layout
+
+*/
+
+/* 1. General */
+
 body {
 	background-color: #1ad4cd;
 }
@@ -8,24 +17,16 @@ h1 {
 	font-family: Verdana;
 }
 h2 {
-	height: 30px;
-	width: 100px;
-	float:left;
-	position: relative;
+background-color: white;
+padding: 15px;
+margin-bottom: 30px;
+margin-top: 0px;
 }
 p {
 	position:relative;
 }
-img.align-left {
-	float: left;
-	margin-right: 20px;
-}
-img.medium {
-	width: 250px;
-	height: 250px;
-}
 a:hover {
-	color: 27e5e7;
+	color: #27e5e7;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -35,4 +36,34 @@ li {
 }
 
 
+/* 2. Layout */
 
+aside {
+	width: 33%;
+	float: left;
+}
+
+article {
+	width: 66%;
+	float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+header img {
+	float:left;
+}
+header {
+	position: fixed;
+	width: 100%;
+	z-index:1;
+	top: 0px;
+}
+.page-content {
+	margin-top: 150px;
+}
