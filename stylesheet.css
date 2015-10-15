@@ -17,7 +17,6 @@ h1 {
 	font-family: Verdana;
 }
 h2 {
-background-color: white;
 padding: 15px;
 margin-bottom: 30px;
 margin-top: 0px;
@@ -46,6 +45,11 @@ aside {
 article {
 	width: 66%;
 	float: right;
+	background-image: url(images/ADMIN-LOGO.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: white;
 }
 
 .clearfix:after {
@@ -67,3 +71,4 @@ header {
 .page-content {
 	margin-top: 150px;
 }
+
